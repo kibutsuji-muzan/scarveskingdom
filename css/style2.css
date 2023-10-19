@@ -1,0 +1,128 @@
+
+
+body {
+	margin: 0;
+	line-height: normal;
+}
+
+.header_nav {
+	background-color: #FFFFFF;
+}
+
+.header_logo {
+	background-color: #000000;
+	border-radius: 1.5vw;
+}
+
+.header_menu ul li a {
+	color: #393838;
+}
+
+.btn-diff {
+	border-radius: 8px;
+	background-color: #c63737;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	position: absolute;
+	top: 34vw;
+	right: 20vw;
+	padding: 6px;
+
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.21);
+	backdrop-filter: blur(120px);
+
+	width: 30vw;
+	min-width: 180px;
+	height: 15vw;
+	min-height: 90px;
+}
+
+.side-img {
+	display: flex;
+}
+
+.clients-img {
+	width: 12vw;
+	height: 6vw;
+	margin: 10px 4px;
+	object-fit: cover;
+}
+
+.front-txt {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.card-cust {
+	border-radius: 2vw;
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card-cust-child {
+	margin-top: 1.5em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around
+}
+
+.footer-cust {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1.8vw 2vw;
+	box-sizing: border-box;
+	font-size: 1.2vw;
+	color: #848484;
+}
+
+.our-brand-card {
+	border-radius: 1.8vw;
+	background-color: #2d2d2d;
+	padding: 4vw 3vw;
+}
+
+@media screen and (max-width:800px) {
+	div.box {
+		display: none;
+	}
+}
+
+@media screen and (max-width:490px) {
+	div.side-img {
+		display: none;
+	}
+
+	div.front-txt {
+		justify-content: flex-start;
+		margin: 6vw 0vw 2vw 5vw;
+	}
+
+	div.footer-cust {
+		font-size: 1.9vw;
+	}
+
+	div.our-brand-card {
+		font-size: 3vw;
+	}
+}
